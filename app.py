@@ -10,7 +10,7 @@ if "summary" not in st.session_state:
 
 st.title("Text Summarizer")
 
-input_text = st.text_area(label="Enter full text:", value="", height=250)
+input_text = st.text_input(label="State your question:", value="")
 
 st.button(
     "Submit",
@@ -18,4 +18,4 @@ st.button(
     kwargs={"prompt": input_text},
 )
 
-output_text = st.text_area(label="Summarized text:", value=st.session_state["summary"], height=250)
+output_text = st.text_area(label="Response based on knowledge base:", value=st.session_state["summary"], height=250)

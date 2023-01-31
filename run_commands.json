@@ -1,0 +1,4 @@
+{
+  "prep env": "source venv/bin/activate",
+  "start": "streamlit run app.py"
+}
