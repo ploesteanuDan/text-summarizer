@@ -13,9 +13,9 @@ def summarize(prompt):
     st.session_state["summary"] = openai.Completion.create(
         model="text-davinci-003",
         prompt=augmented_prompt,
-        temperature=1, # from 0 to 1, less means more accure, more means more abstract 
+        temperature=0, # from 0 to 1, less means more accure, more means more abstract 
         max_tokens=1000,
-        presence_penalty=2
+        presence_penalty=-2
     )["choices"][0]["text"]
 
     # https://towardsdatascience.com/make-a-text-summarizer-with-gpt-3-f0917a07189e
