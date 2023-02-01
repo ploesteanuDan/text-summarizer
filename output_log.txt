@@ -1,0 +1,16 @@
+IN: who is butternut? 
+OUT: Butternut is the world's ugliest cat, with a mashed-in nose, half of one ear missing, and eyes the color of rotting squash. Prim named him Buttercup, insisting that his muddy yellow coat matched the bright flower. 
+ --- 
+ IN: why are cars yellow? 
+OUT: The answer to why cars are yellow is not contained in this data. 
+ --- 
+ IN: who is elon husk? 
+OUT: I'm sorry, but the answer to your question is not contained by this data. 
+ --- 
+ IN: who is the ugliest cat? 
+OUT: The ugliest cat is Buttercup. 
+ --- 
+ IN: what is love? 
+OUT: Love is not mentioned in the data, but it is implied in the relationship between Prim and the narrator, and between the narrator and Buttercup. Prim and the narrator have a strong bond, and the narrator is willing to protect Prim and care for Buttercup, even though Buttercup is not fond of the narrator. This is a strong example of love. 
+ --- 
+ 
